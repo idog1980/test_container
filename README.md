@@ -3,6 +3,8 @@
 This is a python script creates a small docker container on your local machine with nginx on it.
 nginx is a very slim open source web server that out of the box can do many things, for us though, is suppose to display html/pictures we give to it.
 
+** There is no need to commit anything to this repo **
+
 # What do I need to do in order to use it?
 
 1st , Please verify you have python installed on your machine.
