@@ -1,6 +1,7 @@
 import argparse
 import os
 import subprocess
+import sys
 
 # Define the parser
 parser = argparse.ArgumentParser()
@@ -14,10 +15,11 @@ args = parser.parse_args()
 if args.start:
     # Check if Docker is installed
     try:
-        subprocess.run(["docker", "ps"])
+        subprocess.run(["docker", "ps"], check=True)
     except subprocess.CalledProcessError:
         # Docker is not installed, install it
         print("Docker is not installed on your machine.")
+        sys.exit(1)
 
     # Get the local directory from the command line
     local_directory = input("Enter the local directory: ")
