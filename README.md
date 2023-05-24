@@ -14,7 +14,7 @@ If you get an error please go ahead and install python on your mac from [Here](h
 2nd, Please verify you have docker on your machine, you cannot run docker containers without the hypervisor.
 you can verify if you have docker by running `docker ps`.
 Again, if you know you don't have it or get an error on the command you can download it from [Here](https://docs.docker.com/desktop/install/mac-install/) or use brew commands like `brew install docker`
-> **please note that docker desktop is a hypervisor, it means it needs hardware compatibility so make sure if you go to the website that you download intel or M1 chips version for your hardware**
+> Please note that docker desktop is a hypervisor, it means it needs hardware compatibility so make sure if you go to the website that you download **intel or M1 chips version for your hardware**
 
 ## How to run it?
 
